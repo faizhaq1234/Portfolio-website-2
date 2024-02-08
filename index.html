@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz -- Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            background-color: rgb(29, 29, 65);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(2, 2, 32);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 2.04rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+
+        .left {
+            font-size: 3.0rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+        }
+
+        .firstSection div {
+            width: 40%;
+        }
+
+        .leftSection {
+
+            font-size: 2.0rem;
+
+        }
+        .leftSEction .button{
+            padding: 23px;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background-color: rgb(112, 112, 220);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 4px;
+
+            
+
+        }
+
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(178, 107, 228);
+        }
+
+        .white {
+            color: aqua;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 60px;
+            position: relative;
+            top: -60px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+
+        }
+
+        .vertical-desc {
+
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: rgb(37, 37, 67);
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 123px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style-type: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: green;
+            padding: 12px 0;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Faiz Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="www.google.com">Home</a></li>
+                    <li><a href="www.facebook.com">About</a></li>
+                    <li><a href="www.twitter.com">Services</a></li>
+                    <li><a href="www.whatsapp.com">Projects</a></li>
+                    <li><a href="www.istagram.com">Contact Me</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Faiz</span>
+
+                <div>and I am a Passionate </div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <button class="btn">Download Resume </button>
+                    <button class="btn">Visit Github </button>
+                </div>
+
+
+            </div>
+            <div class="rightSelection">
+                <img src="Faiz developer.png" alt="Home Page Image" width="400" height="450">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="HTML.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML develper (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, tenetur? Dolores quasi
+                        officia, voluptate corporis culpa, fuga ea iusto ex harum ducimus veniam dolore quos illo ab
+                        dolorem in rem soluta commodi doloribus provident.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="node js.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Node.js Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam unde excepturi
+                        voluptas quo at ea dolorem doloribus libero, illo totam itaque ut exercitationem quam blanditiis
+                        iure nobis. Similique laboriosam ab doloremque itaque blanditiis?
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img src="JavaScript 2.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        JavaScript Developer (2014-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum obcaecati ullam
+                        perspiciatis necessitatibus sequi quidem nemo, distinctio assumenda ducimus? Recusandae aut
+                        nesciunt a enim quisquam at obcaecati architecto doloribus, voluptatum ipsa illum dolorum?
+                    </div>
+
+
+                </div>
+
+
+                <div class="vertical">
+                    <img src="React 2.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        React JS Developer (2016-2018)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laborum ex magni a reiciendis
+                        voluptas quis atque alias iure facere in quae, vero obcaecati sed quia nam libero? Facilis
+                        blanditiis odit vitae excepturi consectetur!
+                    </div>
+
+
+                </div>
+
+                <div class="vertical">
+                    <img src="Python 2.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Python Developer (2016-2020)
+
+                    </div>
+
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum qui illum itaque porro
+                        quisquam reiciendis, repudiandae dolor repellat accusamus vel praesentium non nobis aut
+                        exercitationem similique omnis culpa quas odio in corporis? Explicabo.
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Faiz Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+
+        <div class="footer-rights">
+            Copyrights@faizportfolio.com || all Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor,', 'Graphic Designer,', 'Web Developer...'],
+            typeSpeed: 150,
+        });
+    </script>
+
+</body>
+
+</html>
